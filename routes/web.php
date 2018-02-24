@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'StaticPagesController@home')->name('home');
+Route::get('/serch', 'StaticPagesController@serch')->name('serch');
+Route::post('/serch', 'SerchController@serch')->name('serch');
+Route::get('/jdurl', 'StaticPagesController@jdurl')->name('jdurl');
+Route::post('/jdurl', 'JdController@urltophone')->name('urltophone');
+
+Route::get('signup', 'UsersController@create')->name('signup');
