@@ -10,7 +10,7 @@ class SerchController extends Controller
 {
     public function serch(Request $request)
     {
-         $mystring=$request->itemurl?$request->itemurl:'https://item.taobao.com/item.htm?id=563075843927';
+         $mystring=$request->itemurl?$request->itemurl:'';
          $findTb = '//item.taobao.com';
          $findTm = '//detail.tmall.com';
          $findJd = '//item.jd.com';
