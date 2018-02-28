@@ -21,7 +21,7 @@ function download(src) {
     <p>
         <input style="text-align:center" type="text" name="itemurl" class="form-control" placeholder="支持  淘宝/天猫/京东/苏宁/国美/一号店  详情链接">
     </p>
-    <p style="text-align:center;margin-top: 30px;margin-bottom: 35px;">
+    <p style="text-align:center;margin-top: 20px;margin-bottom: 20px;">
         <button class="btn btn-primary radius" type="submit" ><i class="glyphicon glyphicon-picture"></i> 获取主图</button>
     </p>
 </form>
