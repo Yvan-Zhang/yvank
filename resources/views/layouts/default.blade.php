@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@yield('title', '电商常用工具')</title>
+    <title>@yield('title', '设计师常用工具')</title>
     <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
